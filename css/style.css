@@ -43,7 +43,8 @@ body {
 }
 
 .header-link:hover,
-.header-link:focus {
+.header-link:focus,
+.header-link:active {
   color: #2196f3;
 }
 
