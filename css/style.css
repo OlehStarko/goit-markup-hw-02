@@ -1,5 +1,6 @@
 :root {
   --logo-color: #2196f3;
+  --active-color: #2196f3;
   --logo-span-color: #212121;
   --header-link-color: #212121;
   --header-contact-link-color: #757575;
@@ -35,6 +36,10 @@ body {
 
 .list {
   list-style: none;
+}
+
+.active {
+  color: var(--active-color);
 }
 
 .header {
