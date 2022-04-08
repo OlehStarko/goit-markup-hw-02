@@ -98,6 +98,10 @@ body {
   letter-spacing: 0.06em;
 }
 
+.hero-btn:hover {
+  background: #188ce8;
+}
+
 .dignity {
 }
 
