@@ -16,7 +16,6 @@ body {
 
 .logo {
   font-family: "Raleway", sans-serif;
-  font-style: normal;
   font-weight: 700;
   font-size: 26px;
   line-height: 31px;
@@ -72,7 +71,6 @@ body {
   background: #2f303a;
 }
 .hero-main-text {
-  font-style: normal;
   font-weight: 900;
   font-size: 44px;
   line-height: 60px;
@@ -99,7 +97,8 @@ body {
   letter-spacing: 0.06em;
 }
 
-.hero-btn:hover {
+.hero-btn:hover,
+.hero-btn:focus {
   background: #188ce8;
 }
 
@@ -214,7 +213,6 @@ h3.portfolio-work-name {
   color: #212121;
 }
 p.portfolio-description {
-  font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 30px;
