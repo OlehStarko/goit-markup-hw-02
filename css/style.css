@@ -250,3 +250,8 @@ p.footer-contact {
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
+
+.footer-contact-link:hover,
+.footer-contact-link:focus {
+  color: #2196f3;
+}
