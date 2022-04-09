@@ -152,7 +152,6 @@ a.current {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
-  text-align: center;
   color: var(--dignity-main-text-color);
 }
 
@@ -212,11 +211,9 @@ a.current {
 }
 
 .portfolio-description-text {
-  font-weight: 900;
-  font-size: 44px;
-  line-height: 1.36;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
   color: var(--portfolio-description-text-color);
 }
 .portfolio-nav {
