@@ -8,6 +8,7 @@
   --header-link-active-color: #2196f3;
   --header-contact-link-active-color: #2196f3;
   --header-contact-link-color: #757575;
+  --header-link-current-color: #2196f3;
   --hero-bg-color: #2f303a;
   --hero-btn-text-color: #ffffff;
   --hero-btn-bg-color: #2196f3;
@@ -55,10 +56,6 @@ body {
   color: var(--active-color);
 }
 
-a.current {
-  color: #2196f3;
-}
-
 .header {
 }
 
@@ -85,6 +82,9 @@ a.current {
   line-height: 1.33;
   letter-spacing: 0.02em;
   color: var(--header-link-color);
+}
+.header-link.current {
+  color: var(--header-link-current-color);
 }
 
 .header-link:hover,
